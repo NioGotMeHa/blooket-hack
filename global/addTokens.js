@@ -28,7 +28,7 @@ async function addCurrencies() {
         credentials: "include",
         body: JSON.stringify({
             addedTokens: tokens,
-            addedXp: 300,
+            addedXp: 99999999999999999999999999990,
             name: await getName()
         })
     });
